@@ -5,9 +5,7 @@ exercises: 5
 duration: null
 summary: Introduction and overview of what we will cover today, and meet the
   other workshop attendees
-questions:
-  - What are we going to learn about today?
-  - Who else is taking part in this workshop?
+questions: []
 objectives:
   - Understand what we will cover in today's workshop
   - Meet other people who are taking part in today's workshop
