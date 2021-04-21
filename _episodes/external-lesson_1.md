@@ -26,11 +26,12 @@ originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 
 ---
 ## Welcome to the WIN Paradigm Sharing workshop!
-> In today's workshop, we're going to introduce you to the GitLab and Pavlovia repositories for sharing your paradigms in WIN. We will then each try to create our own repositories!
+> In today's workshop, we're going to introduce you to the <a href="https://git.fmrib.ox.ac.uk/open-science">GitLab</a> and Pavlovia repositories for sharing your paradigms in WIN. We will then each try to create our own repositories!
 >
 The principles of the workshop are as follows:
-- No homework for busy people! 
-
+- No homework for busy people! We want you to have the opportunity to create your first repository as part of the workshop, without needing to put in additional work.
+- All abilities welcome! You're welome to attend whether you've never touched git before, or if you're a git power-user
+-
  
 For further information on WIN Open Science, we recommend visiting the WIN Open Community pages at <a href="https://cassgvp.github.io/WIN-Open-Neuroimaging-Community/" target="_blank">https://cassgvp.github.io/WIN-Open-Neuroimaging-Community/</a>. You can find specific information about sharing tasks within WIN at <a href="https://cassgvp.github.io/WIN-Open-Neuroimaging-Community/docs/tools/tasks.html" target="_blank">https://cassgvp.github.io/WIN-Open-Neuroimaging-Community/docs/tools/tasks.html</a>.
 
