@@ -1,30 +1,30 @@
 ---
-
-workshop_id:
-topic:
-title:
-instructors: []
-instructor_emails: []
+workshop_id: OX3DS20210421_01
+topic: open-code
+title: A practical guide to sharing paradigms in WIN
+instructors:
+  - Laurence Hunt
+  - Dejan Draschkow
+instructor_emails:
+  - laurence.hunt@psych.ox.ac.uk
+  - dejan.draschkow@psych.ox.ac.uk
 helpers: []
-# A list of hh|mm time formats [avoids jekyll auto-conversion].
-# Only days with scheduled items get a start time.
-# Days which can't be matched will use the first entry.
-start_times: ["09|00"]
-# list of files in _includes/install_instructions to use in the setup page
-setup_files: []
+start_times:
+  - 13|00
+setup_files:
+  - git
 language: en
-venue:
-address:
-country:
-latitude:
-longitude:
-start_date:
-collaborative_notes:
-eventbrite:
-# list of files in path _includes/intro/* .md files can be customised; .html files cannot be customised. Files with an initial _ are ignored.
-optional_intro_sections: ["requirements", "accessibility"]
-
-# Custom but fixed fields
+venue: Wellcome Centre for Integrative Neuroimaging, University of Oxford
+address: FMRIB Centre, John Radcliffe Hospital, Headington, Oxford OX3 9DU
+country: GB
+latitude: 51
+longitude: -1
+start_date: null
+collaborative_notes: null
+eventbrite: null
+optional_intro_sections:
+  - requirements
+  - accessibility
 kind: workshop
 ukrn_email: training@ukrn.org
 ukrn_site: https://ukrn.org/
@@ -32,8 +32,6 @@ repository: <USERNAME>/<PROJECT>
 carpentries_site: https://carpentries.org/
 pre_survey: https://docs.google.com/forms/d/e/1FAIpQLScWW7rKXwzUG7PbCkzUH9Vxycg2i8Drk_cJqC_58F1WY1N1bA/viewform?usp=pp_url&entry.2087576176=
 post_survey: https://docs.google.com/forms/d/e/1FAIpQLSf1UveYPOWn5zV7DkKO7a5tpNpBqYfEF6rLkDUSurIDe5wwFg/viewform?usp=pp_url&entry.579599320=
-
-# Fixed fields
 collections:
   episodes:
     output: true
@@ -44,7 +42,6 @@ collections:
   extras:
     output: true
     permalink: /:path/index.html
-
 defaults:
   - values:
       root: .
@@ -61,193 +58,180 @@ defaults:
     values:
       root: ..
       layout: page
-
 exclude:
   - Makefile
   - bin/
   - .Rproj.user/
 highlighter: rouge
-
-# UKRN Workshop Builder metadata
-# Describes each of the custom variables
 ukrn_wb:
-    # We include the fields structure so that we can access JSON conversion of fields more readily (to numerical array where keys correspond to this numerical array).
-    # This does mean that all properties are required for all fields
   - fields_structure:
-      - name # Pretty name of the field
-      - type # Data type
-      - help # Help text
-      - is_array # Whether data is a list
-      - is_required # Whether field is required
-      - format # Formatting details for data
-      - special # Special information for deriving data e.g. options list
+      - name
+      - type
+      - help
+      - is_array
+      - is_required
+      - format
+      - special
   - fields:
       - workshop_id:
           - Workshop identifier
           - string
-          - >-
-            We will provide this to you, but its general structure will be a 2-3-letter code for your university or institution, a 2-letter code for the topic, the date (today's or the intended workshop date) in YYYYMMDD format, followed by an underscore and a two-digit version number. It should look something like UOBDS20210418_01
+          - We will provide this to you, but its general structure will be a
+            2-3-letter code for your university or institution, a 2-letter code
+            for the topic, the date (today's or the intended workshop date) in
+            YYYYMMDD format, followed by an underscore and a two-digit version
+            number. It should look something like UOBDS20210418_01
           - false
           - true
-          - # format
-          - # special
+          - null
+          - null
       - topic:
           - Workshop topic
           - string
-          - >-
-            The topic is used to search for pre-existing lessons you can include in your workshop
+          - The topic is used to search for pre-existing lessons you can include
+            in your workshop
           - false
           - true
           - topic
-          - # special
+          - null
       - title:
           - Workshop title
           - string
-          - >-
-            The title should let people know the most important information - where the workshop is and what it covers
+          - The title should let people know the most important information -
+            where the workshop is and what it covers
           - false
           - true
-          - # format
-          - # special
+          - null
+          - null
       - instructors:
-            - Workshop instructor(s)
-            - string
-            - >-
-                Instructor name(s)
-            - true # is_array
-            - true # is_required
-            - # format
-            - # special
-
+          - Workshop instructor(s)
+          - string
+          - Instructor name(s)
+          - true
+          - true
+          - null
+          - null
       - instructor_emails:
-            - Contact email address(es)
-            - string
-            - >-
-                Instructor email address(es) for questions/comments/feedback
-            - true # is_array
-            - # is_required
-            - email # format
-            - # special
+          - Contact email address(es)
+          - string
+          - Instructor email address(es) for questions/comments/feedback
+          - true
+          - null
+          - email
+          - null
       - helpers:
-            - Workshop helper(s)
-            - string
-            - >-
-                Helper name(s)
-            - true # is_array
-            - # is_required
-            - # format
-            - # special
+          - Workshop helper(s)
+          - string
+          - Helper name(s)
+          - true
+          - null
+          - null
+          - null
       - start_times:
           - Start time
           - time
-          # The time is actually converted to 09_00 format
-          - >-
-            Start times (in 0900 format) for each day of the workshop. If shorter than the number of days, remaining days will use the first entry
+          - Start times (in 0900 format) for each day of the workshop. If
+            shorter than the number of days, remaining days will use the first
+            entry
           - true
           - true
           - hours_minutes
-          - # special
-
+          - null
       - setup_files:
-            - Setup instructions
-            - filename
-            - >-
-                List of setup guides to include on the homepage
-            - true # is_array
-            - # is_required
-            - # format
-            - ["_includes/install_instructions"] # special - directories to search
-
+          - Setup instructions
+          - filename
+          - List of setup guides to include on the homepage
+          - true
+          - null
+          - null
+          - - _includes/install_instructions
       - language:
-            - Workshop language
-            - string
-            - >-
-                Language code for the language the workshop will be conducted in
-            - # is_array
-            - # is_required
-            - iso-639-1
-            - # special
-
+          - Workshop language
+          - string
+          - Language code for the language the workshop will be conducted in
+          - null
+          - null
+          - iso-639-1
+          - null
       - venue:
           - Workshop venue
           - string
-          - >-
-            The brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-          - # is_array
-          - # is_required
-          - # format
-          - # special
+          - The brief name of the institution that hosts the workshop without
+            address (e.g., "Euphoric State University")
+          - null
+          - null
+          - null
+          - null
       - address:
           - Venue address
           - string
-          - >-
-            The full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
-          - # is_array
-          - # is_required
-          - long # format
-          - # special
+          - The full street address of workshop (e.g., "Room A, 123 Forth
+            Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+          - null
+          - null
+          - long
+          - null
       - country:
           - Workshop country
           - string
-          - >-
-            Country code for the institution that hosts the workshop
-          - # is_array
-          - # is_required
+          - Country code for the institution that hosts the workshop
+          - null
+          - null
           - iso-3166-1-alpha-2
-          - # special
+          - null
       - latitude:
-            - Workshop latitude
-            - number
-            - >-
-                Latitude of workshop venue (use <a href="https://www.latlong.net/">https://www.latlong.net"</a>)
-            - # is_array
-            - # is_required
-            - latitude
-            - # special
+          - Workshop latitude
+          - number
+          - Latitude of workshop venue (use <a
+            href="https://www.latlong.net/">https://www.latlong.net"</a>)
+          - null
+          - null
+          - latitude
+          - null
       - longitude:
-            - Workshop longitude
-            - number
-            - >-
-                Longitude of workshop venue (use <a href="https://www.latlong.net/">https://www.latlong.net"</a>)
-            - # is_array
-            - # is_required
-            - longitude
-            - # special
-
+          - Workshop longitude
+          - number
+          - Longitude of workshop venue (use <a
+            href="https://www.latlong.net/">https://www.latlong.net"</a>)
+          - null
+          - null
+          - longitude
+          - null
       - start_date:
-            - Workshop start date
-            - date
-            - >-
-                Date the workshop starts.
-            - # is_array
-            - # is_required
-            - years-months-days
-            - # special
-
+          - Workshop start date
+          - date
+          - Date the workshop starts.
+          - null
+          - null
+          - years-months-days
+          - null
       - collaborative_notes:
           - Collaborative notes link
           - string
-          - >-
-            URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-          - # is_array
-          - # is_required
-          - # format
-          - # special
+          - URL for the workshop collaborative notes, e.g. an Etherpad or Google
+            Docs document
+          - null
+          - null
+          - null
+          - null
       - eventbrite:
           - Eventbrite key
           - string
-          - >-
-            The alphanumeric key for Eventbrite registration, e.g., "1234567890AB"
-          - # is_array
-          - # is_required
-          - # format
-          - # special
+          - The alphanumeric key for Eventbrite registration, e.g.,
+            "1234567890AB"
+          - null
+          - null
+          - null
+          - null
       - optional_intro_sections:
           - Optional introductory sections
           - filename
-          - >-
-            Optional introductory sections which can be included on the homepage and customised
-          - true # is_array
-          - # is_required
-          - # format
-          - ["_includes/intro/optional"] # special - directories to search
+          - Optional introductory sections which can be included on the homepage
+            and customised
+          - true
+          - null
+          - null
+          - - _includes/intro/optional
+
+---
+null
