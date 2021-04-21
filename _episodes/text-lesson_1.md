@@ -1,10 +1,10 @@
 ---
-title: Text Lesson
-teaching: null
-exercises: null
+title: Why share your tasks?
+teaching: 15
+exercises: 0
 duration: null
-summary: This template shows you how to use the various different special text
-  boxes on offer.
+summary: A brief discussion on why task sharing is a good idea, and how to get
+  started at WIN
 questions: null
 objectives: null
 keypoints: null
