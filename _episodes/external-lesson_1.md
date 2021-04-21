@@ -1,7 +1,7 @@
 ---
 title: Introduction to Paradigm Sharing at WIN
-teaching: 10
-exercises: 0
+teaching: 5
+exercises: 5
 duration: null
 summary: Introduction and overview of what we will cover today, and meet the
   other workshop attendees
