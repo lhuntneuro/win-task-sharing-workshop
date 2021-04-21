@@ -17,8 +17,8 @@ language: en
 venue: Wellcome Centre for Integrative Neuroimaging, University of Oxford
 address: FMRIB Centre, John Radcliffe Hospital, Headington, Oxford OX3 9DU
 country: GB
-latitude: 51
-longitude: -1
+latitude: null
+longitude: null
 start_date: null
 collaborative_notes: null
 eventbrite: null
