@@ -5,8 +5,16 @@ exercises: 0
 duration: null
 summary: A brief discussion on why task sharing is a good idea, and how to get
   started at WIN
-questions: null
-objectives: null
+questions:
+  - What benefits might sharing your tasks bring, both to other researchers and
+    to yourself?
+  - What concerns might you have when sharing your tasks, and how could these be
+    addressed?
+objectives:
+  - By the end of this section, you should be familiar with the basic principles
+    of task sharing, and some of the benefits it may bring
+  - You will hopefully be motivated to share your own tasks, and to encourage
+    others to do so as well!
 keypoints: null
 is-break: null
 ukrn_wb_rules:
