@@ -14,8 +14,8 @@ objectives:
 keypoints:
   - In today's workshop, we will introduce you to the WIN GitLab and Pavlovia
     repositories for paradigm sharing at WIN
-  - "We will aim, by the end of today's workshop, to create a repository on WIN
-    GitLab that contains one of our tasks "
+  - "By the end of today's workshop, we will aim to have created a repository on
+    WIN GitLab that contains one of our tasks "
 is-break: null
 ukrn_wb_rules: []
 day: 1
