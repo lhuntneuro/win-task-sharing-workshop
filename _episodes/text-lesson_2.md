@@ -1,7 +1,7 @@
 ---
 title: Make your own repository (part 1)
 teaching: 0
-exercises: 45
+exercises: 40
 duration: null
 summary: Start to create a simple repository for your task, put a copy of the
   current version of your task in the repository, and make a simple readme file
