@@ -42,7 +42,7 @@ originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 - 25 mins: *Wrap up* - everyone briefly says what they've made, and we address any final questions
 
 ## Icebreaker time!
-As this is an online workshop, we'd like everyone in the room to enter into the chat:
+As this is an online workshop, we'd like everyone in the room to say:
 - Their name
 - Which group/department they're working in
 - What kind of task they're planning on sharing
