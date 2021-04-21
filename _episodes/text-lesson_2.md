@@ -6,7 +6,11 @@ duration: null
 summary: Start to create a simple repository for your task, put a copy of the
   current version of your task in the repository, and make a simple readme file
 questions: null
-objectives: null
+objectives:
+  - By the end of this section, you will have begun to create a repository for
+    your task on GitLab
+  - You will also add a simple readme file to help researchers who haven't used
+    the task before
 keypoints: null
 is-break: null
 ukrn_wb_rules:
