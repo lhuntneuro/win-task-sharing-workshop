@@ -1,7 +1,7 @@
 ---
 title: Make your own repository (part 2)
 teaching: 0
-exercises: 45
+exercises: 40
 duration: null
 summary: Finish making your repositories, adding more detail to readme, add license
 questions: null
