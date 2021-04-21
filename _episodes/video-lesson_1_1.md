@@ -1,9 +1,10 @@
 ---
-title: Video Lesson
-teaching: null
+title: "Demonstration: using the WIN GitLab server to share your task"
+teaching: 25
 exercises: null
 duration: null
-summary: This template shows you how to include embedded videos in your lessons.
+summary: A walkthrough, from start to finish, of setting up a repository on the
+  WIN Gitlab server
 questions: null
 objectives: null
 keypoints: null
