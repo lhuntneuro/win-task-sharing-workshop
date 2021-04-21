@@ -1,10 +1,9 @@
 ---
-title: Text Lesson
-teaching: null
-exercises: null
+title: Make your own repository (part 2)
+teaching: 0
+exercises: 45
 duration: null
-summary: This template shows you how to use the various different special text
-  boxes on offer.
+summary: Finish making your repositories, adding more detail to readme, add license
 questions: null
 objectives: null
 keypoints: null
