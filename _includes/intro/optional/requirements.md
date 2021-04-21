@@ -1,3 +1,4 @@
 ### Requirements
-* Participants must have access to a computer with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
-* They should have a few specific software packages installed (listed [below](#setup)).
+* Participants must have access to a computer with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.).
+* They must have a WIN IT account that allows them to sign into the <a href="https://git.fmrib.ox.ac.uk/users/sign_in">WIN GitLab</a> pages. Please visit <a href="https://register.fmrib.ox.ac.uk/">https://register.fmrib.ox.ac.uk/</a> to register for an account. General advice on using the WIN Gitlab server can be found on the <a href="https://sharepoint.nexus.ox.ac.uk/sites/NDCN/FMRIB/IT/User%20Guides/Git.aspx">WIN Intranet</a>.
+* Participants should bring a task that they wish to share with other researchers. This can be written using any program (PsychoPy, Psychtoolbox, Presentation, etc.) *(n.b. this need not be a finalised version of the task, or a 'polished' version. Any version of the task is suitable.)*
