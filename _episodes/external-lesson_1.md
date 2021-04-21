@@ -1,5 +1,5 @@
 ---
-title: Introduction to Paradigm Sharing at WIN
+title: Welcome!
 teaching: 5
 exercises: 5
 duration: null
