@@ -25,10 +25,12 @@ dependencies: []
 originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 
 ---
-> ## FigShare tutorial
-> For this lesson we are going to be following through the FigShare tutorial:
-> <a href="https://help.figshare.com/article/how-to-upload-and-publish-your-data" target="_blank">https://help.figshare.com/article/how-to-upload-and-publish-your-data</a>
+## Welcome to the WIN Paradigm Sharing workshop!
+> In today's workshop, we're going to introduce you to the GitLab and Pavlovia repositories for sharing your paradigms in WIN. We will then each try to create our own repositories!
 >
-> The link will open in a new tab.
-> When you have completed the tutorial, you can close the tab.
-{: .challenge}
+The principles of the workshop are as follows:
+- No homework for busy people! 
+
+ 
+For further information on WIN Open Science, we recommend visiting the WIN Open Community pages at <a href="https://cassgvp.github.io/WIN-Open-Neuroimaging-Community/" target="_blank">https://cassgvp.github.io/WIN-Open-Neuroimaging-Community/</a>. You can find specific information about sharing tasks within WIN at <a href="https://cassgvp.github.io/WIN-Open-Neuroimaging-Community/docs/tools/tasks.html" target="_blank">https://cassgvp.github.io/WIN-Open-Neuroimaging-Community/docs/tools/tasks.html</a>.
+
