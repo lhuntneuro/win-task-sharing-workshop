@@ -1,12 +1,9 @@
-Open Code training helps researchers share software so that others can check their results and extend their work.
+WIN is committed to developing an open science community with a positive culture for sharing data, tasks, tools and protocols. A key part of this is training up WIN members to be able to share effectively.
 
-This training will teach researchers to:
-* use **version control** to transparently track the evolution of software and analysis scripts
-* **licence software appropriately** and **publish** code on public platforms
-* use **good programming habits** to create code that can be read, used, and extended by others
-* use **literate programming** tools to embed analysis code and its results directly into manuscripts
+This training will focus on **task sharing** at WIN. It will teach researchers to:
+* use the WIN **GitLab** as a platform for hosting your tasks, and either sharing them publicly or just within WIN
+* create their first **repository** that contains their task, add a **license** and make a simple **readme**
+* understand the main **motivations** for sharing tasks, and address any concerns they may have about task sharing
 
-_Open Code training introduces you to the fundamentals of writing and sharing good code, and
-provides you with practical tools for sharing actual code. It also acts as a
-platform for further self-directed learning.
+_This workshop was developed using a template designed by the UK reproducibility network (UKRN).
 Other UKRN Open Research topics can be found in the [list of UKRN Primers](https://ukrn.org/primers/)._
