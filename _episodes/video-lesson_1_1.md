@@ -5,8 +5,12 @@ exercises: null
 duration: null
 summary: A walkthrough, from start to finish, of setting up a repository on the
   WIN Gitlab server
-questions: null
-objectives: null
+questions:
+  - What is the WIN GitLab server, and how is it organised?
+  - How do I sign in and create a repository?
+objectives:
+  - By the end of this section, you will be ready to create your own repository
+    on the WIN GitLab server
 keypoints: null
 is-break: null
 ukrn_wb_rules:
