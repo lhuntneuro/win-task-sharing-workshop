@@ -1,9 +1,9 @@
 ---
-title: Video Lesson
-teaching: null
-exercises: null
+title: "Demonstration: Add a license to your repository, and make it citable"
+teaching: 15
+exercises: 0
 duration: null
-summary: This template shows you how to include embedded videos in your lessons.
+summary: How to add a license to your repository, and make it citable using Zenodo
 questions: null
 objectives: null
 keypoints: null
