@@ -36,9 +36,10 @@ originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 - 10 mins: *Welcome and introductions* (what we're doing right now!)
 - 15 mins: *Why share your tasks?* A brief discussion on why task sharing is a good idea, and how to get started at WIN
 - 25 mins: *Live demo!* A walkthrough, from start to finish, of setting up a repository on the WIN Gitlab server
-- 45 mins: *Make your own repository (part 1)* - start to create a simple repository for your task, put a copy of the current version of your task in the repository, and make a simple readme file
+- 40 mins: *Make your own repository (part 1)* - start to create a simple repository for your task, put a copy of the current version of your task in the repository, and make a simple readme file
+- 10 mins: Break
 - 15 mins: *Live demo!* How to add a license to your repository, and make it citable using Zenodo
-- 45 mins: *Make your own repository (part 2)* - finish making your repositories, adding more detail to readme, add license
+- 40 mins: *Make your own repository (part 2)* - finish making your repositories, adding more detail to readme, add license
 - 25 mins: *Wrap up* - everyone briefly says what they've made, and we address any final questions
 
 ## Icebreaker time!
