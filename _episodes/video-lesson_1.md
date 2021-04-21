@@ -24,5 +24,9 @@ dependencies: []
 originalRepository: UKRN-Open-Research/ukrn-wb-lesson-templates
 
 ---
-## Content placeholder
+## Content placeholder: licensing/citation demo
+
+This will contain a demonstration of how to go about sharing your tasks at WIN. We will record a video of this and embed the recording here to make it viewable by people who couldn't attend the workshop.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jt4Z1vwtXT0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
